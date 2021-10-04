@@ -3,6 +3,7 @@ import Course from '../Courses/Course';
 import "./Services.css"
 
 const Service = () => {
+    // fetching all courses data
     const [services, setServices] = useState([]);
     useEffect(() => {
         const url = './service.JSON';
@@ -17,6 +18,7 @@ const Service = () => {
                 <hr />
             </div>
             <div className='courses-container container'>
+                {/* getting course data */}
                 {
                     services.map(course => <Course course={course} key={course.title}></Course>)
                 }

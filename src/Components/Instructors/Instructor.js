@@ -14,6 +14,7 @@ const Instructor = () => {
         <div>
             <h1 className='text-center my-5'>Our Instructors</h1>
             <div className="instructors mb-5 container">
+                {/* getting instructor data dynamically */}
                 {
                     instructors.map(instructor => <div key={instructor.img}>
                         <div className="card instructor" style={{ width: "22rem" }}>

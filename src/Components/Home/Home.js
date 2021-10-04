@@ -37,6 +37,7 @@ const Home = () => {
                 </div>
 
                 <div className="course-item container ">
+                    {/* getting all courses */}
                     {
                         courseDemo.map(courseItem => <div key={courseItem.img} >
                             <div className="card me-3 mt-3 mb-3" style={{ width: "20rem" }}>

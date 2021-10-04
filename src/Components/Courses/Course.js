@@ -4,9 +4,11 @@ import { faClock, faUser } from '@fortawesome/free-solid-svg-icons';
 import "./course.css"
 
 const Course = (props) => {
+    // distructing element
     const { title, img, enrolled, price, time } = props.course
     return (
         <div>
+            {/* dynamically showing all the courses we have */}
             <div className="card m-3" style={{ width: "25rem" }}>
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">

@@ -8,15 +8,18 @@ const About = () => {
         <div >
             <div className='container'>
                 <div className='my-5'>
+                    {/* Our mission statement */}
                     <h1>Our Mission</h1>
                     <blockquote className='fw-bold text-center'> "The only way to learn a new programming language is by writing programs in it."</blockquote>
                     <p>The mission of our learning site is to build a quality and comprehensive technology infrastructure, establish and maintain an effective operational environment, and deliver quality, prompt, cost effective and reliable technology services.Programmers are mostly "learn by doing" types.Our mission is to make coding easier for programmers. Spreading all the updates in the world of programming to everyone. </p>
                 </div>
                 <div className='my-5'>
+                    {/* our vision statement */}
                     <h1>Our Vision</h1>
                     <p>To create a better every day life for the many people.Become essential to our students by providing differentiate products and services to help them achieve their aspirations. We mainly focused on our student's satisfaction. Our main motto is to make the world easier with technology and make sure that people get benefits from us.</p>
                 </div>
             </div>
+            {/* displaying total engagement of our site */}
             <div className='about'>
                 <div className='container'>
                     <div className="row justify-content-between container">

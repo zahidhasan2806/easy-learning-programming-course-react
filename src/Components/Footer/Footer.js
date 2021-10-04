@@ -15,6 +15,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
+            {/* footer section  */}
             <div className="footer-container">
                 <div className="container">
                     <div className="row">

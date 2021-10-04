@@ -20,6 +20,7 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className="col-md-10">
+                        {/* nav section start */}
                         <div className="menu-container ">
                             <ul className="d-flex align-items-center mt-2 justify-content-end">
                                 <NavLink activeStyle={activeStyle} to="/home" className="nav-item mx-4">
