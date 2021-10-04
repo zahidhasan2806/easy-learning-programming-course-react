@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route>
+          <Route path='*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
