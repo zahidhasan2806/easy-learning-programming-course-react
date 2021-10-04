@@ -1,0 +1,10 @@
+.about{
+    background-image: url(../../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.about-icon{
+    font-size: 100px;
+}

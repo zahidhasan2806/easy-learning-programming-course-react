@@ -1,0 +1,65 @@
+[
+    {
+        "title": " Back-end Web Development with Python",
+        "img": "https://services-images-easy-learning.netlify.app/python.png",
+        "enrolled": 123,
+        "time": "400 Min",
+        "price": 79
+    },
+    {
+        "title": " Back-end Web Development with JavaScript",
+        "img": "https://services-images-easy-learning.netlify.app/js.png",
+        "enrolled": 101,
+        "time": "320 Min",
+        "price": 65
+    },
+    {
+        "title": " Front-end Web Development",
+        "img": "https://services-images-easy-learning.netlify.app/4.png",
+        "enrolled": 185,
+        "time": "420 Min",
+        "price": 55
+    },
+    {
+        "title": " Back-end Web Development with Laravel",
+        "img": "https://services-images-easy-learning.netlify.app/laravel-featured.png",
+        "enrolled": 85,
+        "time": "250 Min",
+        "price": 85
+    },
+    {
+        "title": " Back-end Web Development with Node Js, Express And MongoDB",
+        "img": "https://services-images-easy-learning.netlify.app/nodejs.png",
+        "enrolled": 123,
+        "time": "240 Min",
+        "price": 60
+    },
+    {
+        "title": " Back-end Web Development with PHP",
+        "img": "https://services-images-easy-learning.netlify.app/php.png",
+        "enrolled": 100,
+        "time": "350Min",
+        "price": 75
+    },
+    {
+        "title": "JAVA For Software Development",
+        "img": "https://services-images-easy-learning.netlify.app/3.png",
+        "enrolled": 75,
+        "time": "300 Min",
+        "price": 79
+    },
+    {
+        "title": " Learn HTML5, CSS3 & Bootstrap 4 For Web Development",
+        "img": "https://services-images-easy-learning.netlify.app/1.png",
+        "enrolled": 180,
+        "time": "450 Min",
+        "price": 50
+    },
+    {
+        "title": " React JS For Frontend Development",
+        "img": "https://services-images-easy-learning.netlify.app/reactjs-2.png",
+        "enrolled": 120,
+        "time": "180 Min",
+        "price": 70
+    }
+]
