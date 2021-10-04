@@ -11,13 +11,16 @@ const Course = (props) => {
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between mt-4">
                         <p className="card-text">Enrolled:<FontAwesomeIcon className='mx-2' icon={faUser} />{enrolled}</p>
                         <p className="card-text">Duration: <FontAwesomeIcon className='mx-2' icon={faClock} />{time}</p>
                     </div>
-                    <h4 className='text-center'>Price:${price}</h4>
-                    <button className="btn btn-success w-100">Enroll Now</button>
                 </div>
+                <h4 className='text-center'>Price:${price}</h4>
+                <div className="card-footer bg-primary bg-opacity-10 button">
+                    <button className="btn w-100">Apply Now</button>
+                </div>
+
             </div>
         </div >
     );
