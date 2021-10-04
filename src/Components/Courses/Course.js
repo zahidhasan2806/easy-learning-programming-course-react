@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faUser } from '@fortawesome/free-solid-svg-icons';
 import "./course.css"
-import { Link } from 'react-router-dom';
 
 const Course = (props) => {
     const { title, img, enrolled, price, time } = props.course
