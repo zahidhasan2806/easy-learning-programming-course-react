@@ -26,13 +26,16 @@ const Header = () => {
                                     <li className='nav-list' >Home</li>
                                 </NavLink>
                                 <NavLink activeStyle={activeStyle} to="/about" className="nav-item mx-4">
-                                    <li>About us</li>
+                                    <li>About Us</li>
                                 </NavLink>
                                 <NavLink activeStyle={activeStyle} to="/service" className="nav-item mx-4">
                                     <li>Services</li>
                                 </NavLink>
                                 <NavLink activeStyle={activeStyle} to="/instructor" className="nav-item mx-4">
                                     <li>Instructors</li>
+                                </NavLink>
+                                <NavLink activeStyle={activeStyle} to="/blogs" className="nav-item mx-4">
+                                    <li>Blogs</li>
                                 </NavLink>
 
                             </ul>

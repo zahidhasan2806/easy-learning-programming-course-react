@@ -1,6 +1,7 @@
 import { faClock, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Banner from '../../images/banner-edu.jpg'
 import './home.css'
 
@@ -21,7 +22,7 @@ const Home = () => {
                             <div className="col-md-6 d-flex align-items-center">
                                 <div className="banner-info">
                                     <h1>The new way to learn properly is with us.</h1>
-                                    <button className="btn banner-button">Get Started</button>
+                                    <Link to='/service' className="btn banner-button">Get Started</Link>
                                 </div>
                             </div>
                             <div className="banner-img col-md-6">

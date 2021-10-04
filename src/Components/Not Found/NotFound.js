@@ -10,6 +10,7 @@ const NotFound = () => {
             </div>
             <div className="text-center">
                 <Link className='btn btn-primary m-5' to='/home'>Go Back To HomePage</Link>
+                <h3>We are working on it.Hopefully this section will be available very soon</h3>
             </div>
         </div>
     );

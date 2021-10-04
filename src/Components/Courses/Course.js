@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faUser } from '@fortawesome/free-solid-svg-icons';
 import "./course.css"
+import { Link } from 'react-router-dom';
 
 const Course = (props) => {
     const { title, img, enrolled, price, time } = props.course
@@ -16,9 +17,10 @@ const Course = (props) => {
                         <p className="card-text">Duration: <FontAwesomeIcon className='mx-2' icon={faClock} />{time}</p>
                     </div>
                     <h4 className='text-center'>Price:${price}</h4>
+                    <button className="btn btn-success w-100">Enroll Now</button>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
